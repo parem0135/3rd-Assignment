@@ -1,0 +1,28 @@
+/* fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Lobster&family=Poppins:wght@400;500&family=Roboto&display=swap');
+
+/* common css */
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* carosel css */
+.carousel-item::before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    background: #000;
+    opacity: 0.6;
+
+}
+
+.carousel-item img {
+    height: 94vh;
+    object-fit: cover;
+}
